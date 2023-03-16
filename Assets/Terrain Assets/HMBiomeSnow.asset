@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a89e1834e96b04eb6d1c28f8bf48c4, type: 3}
+  m_Name: HMBiomeSnow
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  noiseSettings:
+    normalizeMode: 1
+    scale: 20
+    octaves: 8
+    persistance: 0.374
+    lacunarity: 2
+    seed: 20
+    offset: {x: 0, y: 0}
+  useFalloff: 0
+  heightMultiplier: 1200
+  heightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.123809814
+      inSlope: 8.094624
+      outSlope: 8.094624
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.04627338
+      value: 0.49837542
+      inSlope: 0.035647683
+      outSlope: 0.035647683
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.64375603
+    - serializedVersion: 3
+      time: 0.28576335
+      value: 0.50012827
+      inSlope: 0.006079532
+      outSlope: 0.006079532
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.2599306
+    - serializedVersion: 3
+      time: 0.6177337
+      value: 0.4453303
+      inSlope: 0.04025753
+      outSlope: 0.04025753
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.24852261
+    - serializedVersion: 3
+      time: 0.99768066
+      value: 0.30558777
+      inSlope: -0.36779484
+      outSlope: -0.36779484
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
