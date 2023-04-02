@@ -1,0 +1,596 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1680458057519936, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458057520937, "dur": 83863, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458057604930, "dur": 891050, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458058495994, "dur": 9907, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458085579570, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458085579765, "dur": 10746, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458085590513, "dur": 32245, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458085622843, "dur": 550996, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458086173840, "dur": 177808, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458086351651, "dur": 5617, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458086357752, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1680458086044907, "dur": 117734, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680458086045742, "dur": 38043, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680458086149882, "dur": 3691, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680458086153576, "dur": 9057, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680458086154123, "dur": 7671, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680458086166285, "dur": 1012, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680458086165697, "dur": 1616, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458086357848, "dur": 144, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1680458086203428, "dur":1136, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086204569, "dur":394, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680458086205005, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680458086205076, "dur":425, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680458086205523, "dur":524, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086206047, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314460, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314467, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314506, "dur":441, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314947, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314962, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314966, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314973, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314975, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314982, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314983, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314990, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314991, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314997, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086314998, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315006, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315008, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315014, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315016, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315022, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315024, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315030, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315032, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315038, "dur":747, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315785, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315797, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315821, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086315842, "dur":8994, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680458086205583, "dur":487, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086206070, "dur":4098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086210169, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680458086210404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086224994, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680458086225759, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086225819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086225826, "dur":20419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086246287, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086246926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086246932, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086249852, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086251458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086251467, "dur":4823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086256324, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086256352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086256358, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086258056, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086258226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086258232, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086258904, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086259275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086259281, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086260232, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086260553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086260559, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086262281, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086262315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086262320, "dur":6492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086268853, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086268886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086268894, "dur":8865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680458086277790, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1680458086277818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086277824, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1680458086281236, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1680458086281264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680458086281269, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1680458086283059, "dur":31253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086205573, "dur":485, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086206062, "dur":4097, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086210168, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1680458086210169, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086210352, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1680458086210386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086214885, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1680458086215481, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086215571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086215576, "dur":22939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086238552, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086238582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086238588, "dur":7936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086246561, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086246592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086246597, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086249066, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086249103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086249108, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086250673, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086250715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086250721, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086252175, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086252212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086252234, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086253718, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086253767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086253792, "dur":4826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086258657, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086258747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086258753, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086259263, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086259343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086259349, "dur":5335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086264714, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086264746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086264751, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086265579, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086265605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086265611, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086266537, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086266975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086266982, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086268210, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086268253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086268258, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086269831, "dur":20160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086289998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680458086290266, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680458086290820, "dur":23649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086205627, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086206080, "dur":4085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086210168, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1680458086210302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086211378, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1680458086212826, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1680458086213075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086214097, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1680458086214933, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1680458086215036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086215043, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1680458086216903, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1680458086217003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086217129, "dur":9276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1680458086226439, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086226470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086226476, "dur":19289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086245828, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086245908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086245915, "dur":3130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086249091, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086249124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086249130, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086252624, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086252665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086252672, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086254239, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086254268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086254274, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086258234, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086258342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086258350, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086260153, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086260187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086260194, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086262274, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086262391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680458086262397, "dur":31471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680458086293927, "dur":20522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086205664, "dur":424, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086206088, "dur":4082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086210170, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680458086210411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086229132, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680458086230038, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086230072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086230077, "dur":17019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086247139, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086247176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086247181, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086249847, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086249906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086249911, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086250806, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086250838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086250843, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086252632, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086252669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086252675, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086255237, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086255266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086255272, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086258131, "dur":2029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086260163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086260170, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086262591, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086262626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086262631, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086263957, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086264012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086264019, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680458086270347, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680458086270378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086270385, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680458086271016, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680458086271062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680458086271069, "dur":10541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680458086281656, "dur":32658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086205692, "dur":402, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086206094, "dur":4086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086210181, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1680458086210384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086211773, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1680458086212835, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1680458086213055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086214060, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1680458086214881, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1680458086214983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086215001, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1680458086216725, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO.exe" }}
+,{ "pid":12345, "tid":5, "ts":1680458086217242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086217248, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO.exe" }}
+,{ "pid":12345, "tid":5, "ts":1680458086218247, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086218283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086218288, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086218849, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086218895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086218901, "dur":26611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086245578, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086245614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086245623, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086248167, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086248194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086248200, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086251150, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086251213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086251220, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086252688, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086252719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086252724, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086255997, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086256070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086256077, "dur":4676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086260782, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086260963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086260979, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086262415, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086262446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086262469, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086264461, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086264494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086264500, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086265878, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086265912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086265917, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086267586, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086267619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086267624, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086268933, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086269114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086269120, "dur":6747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680458086275931, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1680458086275962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086275972, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1680458086277606, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680458086277689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086277694, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680458086278853, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680458086278890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086278895, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680458086281120, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680458086281214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680458086281223, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680458086283614, "dur":30892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086205736, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086206100, "dur":4085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086210186, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1680458086210396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086224497, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1680458086225704, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086225735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086225740, "dur":20098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086245876, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086245915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086245921, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086252225, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086253220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086253227, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086256302, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086256335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086256341, "dur":11235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086267608, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086267642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086267648, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680458086270842, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1680458086270868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086270874, "dur":5888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1680458086276794, "dur":9162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1680458086285962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680458086285972, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1680458086286605, "dur":27903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086205759, "dur":346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086206105, "dur":4077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086210182, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1680458086210394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086219364, "dur":2763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1680458086222178, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086222225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086222234, "dur":25327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086247703, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086247737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086247742, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086252498, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086252529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086252535, "dur":4256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086256839, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086256873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086256881, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086258592, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086259077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086259083, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086260049, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086260875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086260880, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086262570, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086262610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086262617, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086264867, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086264897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086264903, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086266441, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086266473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086266479, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086266981, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086267033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086267039, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086267693, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086267722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086267728, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680458086271259, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1680458086271287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086271292, "dur":4898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1680458086276225, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1680458086276323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086276329, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1680458086277003, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1680458086277027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086277032, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1680458086278512, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1680458086278538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086278543, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1680458086280562, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1680458086280598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086280606, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1680458086281467, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1680458086281608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680458086281614, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1680458086282953, "dur":31458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086205800, "dur":312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086206112, "dur":4052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086210181, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1680458086210396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086219670, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1680458086222343, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086222379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086222385, "dur":24302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086246726, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086246761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086246767, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086248726, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086248757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086248762, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086251528, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086251559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086251565, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086252795, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086252853, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086252859, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086254590, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086254621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086254626, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086255682, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086255716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086255721, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086258841, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086258939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086258945, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086259775, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086260456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086260462, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086261703, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086261737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086261745, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086262700, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086262731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680458086262736, "dur":31112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680458086293963, "dur":20466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086205834, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086206120, "dur":4063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086210184, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1680458086210404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086228680, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1680458086229412, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086229458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086229464, "dur":17297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086246793, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086246823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086246828, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086249827, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086249858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086249864, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086253299, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086253335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086253340, "dur":9888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086263291, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086263332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086263341, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086268857, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Boxophobic.Utils.Scripts.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086269011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086269020, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Boxophobic.Utils.Scripts.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680458086270004, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1680458086270040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086270072, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1680458086272152, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1680458086272206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680458086272212, "dur":42024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1680458086314275, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1680458086314278, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086205875, "dur":254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086206129, "dur":4047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086210177, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1680458086210291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086211069, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1680458086212918, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1680458086213072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086214074, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1680458086215025, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086215226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086215351, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086217065, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086217105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086217183, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086217708, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086217748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086217763, "dur":472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086218266, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086218294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086218299, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086218855, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086218892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086218899, "dur":26687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086245639, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086245690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086245696, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086247297, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086247338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086247344, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086250207, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086250259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086250265, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086251101, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086251129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086251135, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086253308, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086253362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086253408, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086255346, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086255380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086255385, "dur":6244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086261722, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086261974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086261980, "dur":8859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680458086270873, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1680458086270903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086270909, "dur":6901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1680458086277862, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1680458086277890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086277895, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1680458086278751, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1680458086278856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680458086278862, "dur":3818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1680458086282717, "dur":32136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086205905, "dur":232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086206137, "dur":4050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086210187, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1680458086210383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086214537, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1680458086215339, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086215438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086215456, "dur":11612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086227096, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086227118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086227122, "dur":18706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086245875, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086245947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086245954, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086248553, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086248585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086248609, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086250926, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086250961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086250966, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086252565, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086252597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086252603, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086254249, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086254283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086254289, "dur":8771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086263376, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086263420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680458086263432, "dur":19329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680458086282806, "dur":31745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086205945, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086206143, "dur":4023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086210168, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1680458086210301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086211062, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1680458086212819, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1680458086212904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086214187, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1680458086214905, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1680458086215031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086215038, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1680458086215836, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1680458086215894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086215897, "dur":6186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1680458086222129, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086222168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086222175, "dur":24949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086247167, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086247217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086247222, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086250232, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086250266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086250272, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086252904, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086252932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086252938, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086257015, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086257086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086257101, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086259544, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086259738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086259744, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086261830, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086261858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086261864, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086264230, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086264281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086264287, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086265818, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086265851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086265857, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086267457, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086267554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086267560, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086269125, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086269259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086269264, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680458086270013, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1680458086270051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086270056, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1680458086271688, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1680458086271760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086271766, "dur":5604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1680458086277400, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1680458086277428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086277489, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1680458086278157, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1680458086278186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086278190, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1680458086281128, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1680458086281158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680458086281163, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Importante/makegames/PAP-BUILDS/BUILD-DEMO1.01/BUILD-DEMO1.01.01/WorldHunterDEMO_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1680458086282491, "dur":31960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680458086326114, "dur":2174, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1680458086358038, "dur": 9503, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680458086357741, "dur": 9830, "ph": "X", "name": "Write chrome-trace events", "args": {} },
